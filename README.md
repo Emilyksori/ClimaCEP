@@ -7,20 +7,32 @@ ClimaCEP é uma aplicação web simples que permite consultar a previsão do tem
 ## 🌟 Funcionalidades
 
 - Busca dados do endereço completo a partir do CEP.
-- Exibe a previsão do tempo atual com temperatura, umidade, vento e condição do tempo.
-- Interface intuitiva, com design amigável e ilustrações.
-- Atualização em tempo real dos dados.
+- 🌡️ Exibe a previsão do tempo atual com:
+  - Temperatura
+  - Umidade
+  - Velocidade do vento
+  - Condição do tempo (ensolarado, nublado etc.)
+- Atualização em tempo real com base nas coordenadas do CEP.
 
 ---
 
 ## 💫 Tecnologias Utilizadas
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- APIs:  
-  - [AwesomeAPI CEP](https://docs.awesomeapi.com.br/api-cep)  
-  - [Open-Meteo](https://open-meteo.com/)
+- ⚛️ **React.js** – Biblioteca para construção da interface
+- ⚡ **Vite** – Ferramenta de build rápida e moderna
+- 🎨 **CSS3** – Estilização com tema personalizado e visual ilustrativo
+- 🌐 **APIs Externas**:
+  - [AwesomeAPI - CEP](https://docs.awesomeapi.com.br/api-cep) – para obter endereço a partir do CEP
+  - [Open-Meteo](https://open-meteo.com/) – para obter dados climáticos com base na latitude e longitude
+
+---
+
+## 📸 Interface da Aplicação
+
+<div align="center">
+  <img src="./prints/pagina-busca.png" alt="Página de busca" width="80%">
+  <img src="./prints/resultado-clima.png" alt="Página com resultado" width="80%">
+</div>
 
 ---
 
@@ -44,5 +56,5 @@ ClimaCEP é uma aplicação web simples que permite consultar a previsão do tem
 ---
 
 ## 🌸 Sobre o Projeto
-
+Este projeto foi desenvolvido como atividade prática da disciplina de Desenvolvimento Web. Seu objetivo é integrar diferentes fontes de dados externas via API, praticar consumo de endpoints REST e criar uma interface interativa e responsiva usando React e Vite. O visual do projeto foi inspirado em temas leves e lúdicos, com o uso de imagens e ícones para tornar a experiência do usuário mais envolvente.
 
